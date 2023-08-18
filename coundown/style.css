@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background-image: url(cake.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 2rem 2rem;
+}
+
+.coundown-timer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #c1f8f127;
+    
+}
+
+.coundown-el{
+    text-align: center;
+}
+.coundown-el span{
+    font-size:1.5rem;
+}
